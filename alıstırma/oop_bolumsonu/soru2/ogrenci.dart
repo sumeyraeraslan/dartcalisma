@@ -6,7 +6,7 @@ class Ogrenci {
 
   @override
   String toString() {
-    // nasıl yazdırmak istediğimizi burada söylememiz 
+    // nasıl yazdırmak istediğimizi burada söylememiz lazım 
     return "ID: $id Not değeri: $notDegeri";
   }
 }

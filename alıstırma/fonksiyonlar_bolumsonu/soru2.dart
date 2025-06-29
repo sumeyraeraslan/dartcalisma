@@ -11,7 +11,7 @@ void main(List<String> args) {
   print("PI değeri girin");
   String? PIinput = stdin.readLineSync();
 
-  //PI.trim().isEmpty: Kullanıcı hiçbir şey  yazmadı mı ya da boşluk  mu girdi bu kontrol eder.
+  //PI.trim().isEmpty: Kullanıcı hiçbir şey  yazmadı mı ya da boşluk  mu girdi bunu kontrol eder.
   //trim(): boşlukları siler
   //.isEmpty:Boş olup olmadığını kontrol eder.
   if (PIinput == null || PIinput.trim().isEmpty) {
