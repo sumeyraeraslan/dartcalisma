@@ -7,16 +7,14 @@ void main(List<String> args) {
   Ucabilenler ucak = Ucak();
   Ucabilenler kus = Kus();
 
-  List <Ucabilenler> tumUcanYapilar = [];
+  List<Ucabilenler> tumUcanYapilar = [];
   tumUcanYapilar.add(ucak);
   tumUcanYapilar.add(kus);
 }
 
 class Ucak extends Ucabilenler {
   @override
-  void uc() {
-    
-  }
+  void uc() {}
 }
 
 abstract interface class Ucabilenler {
@@ -35,19 +33,15 @@ abstract class Hayvan {}
 
 class Kopek extends Hayvan implements Havlayanlar, Kosabilenler {
   @override
-  void havla() {
-    
-  }
+  void havla() {}
 
   @override
-  void kos() {
-    
-  }
+  void kos() {}
+
+  void sesCikar() {}
 }
 
 class Kus implements Ucabilenler {
   @override
-  void uc() {
-    
-  }
+  void uc() {}
 }
